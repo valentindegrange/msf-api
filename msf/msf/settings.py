@@ -27,10 +27,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Overriding Authentication User model
+
+AUTH_USER_MODEL = 'msf_user.User'
 
 # Application definition
 
-INSTALLED_APPS = [
+DEFAULT_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -38,6 +41,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+
+INTERNAL_APPS = [
+    'character.apps.CharacterConfig',
+    'msf_user.apps.MsfUserConfig',
+    'roster.apps.RosterConfig'
+]
+
+INSTALLED_APPS = DEFAULT_APPS + INTERNAL_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
