@@ -1,5 +1,5 @@
 from django.db import models
-from django.db.models import CharField, ManyToManyField
+from django.db.models import CharField, ManyToManyField, BooleanField
 from django.forms import IntegerField
 from character.constants import GEAR_STATISTICS
 
@@ -36,3 +36,4 @@ class Character(models.Model):
     character_types = ManyToManyField(CharacterType)
     # Todo: set unique gear_tier per level
     gear_tiers = ManyToManyField(GearTier)
+    available = BooleanField(default=True)
