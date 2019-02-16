@@ -37,6 +37,9 @@ class Character(models.Model):
     traits = ManyToManyField(Trait, blank=True)
     description = TextField(blank=True)
 
+    class Meta:
+        ordering = ['name']
+
     def __str__(self):
         return self.name
 

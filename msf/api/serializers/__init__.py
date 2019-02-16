@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
 from .characters import (
-    CharacterSerializer
+    CharacterSerializer,
+    CharacterInstanceSerializer
 )

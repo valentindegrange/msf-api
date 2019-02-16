@@ -1,6 +1,6 @@
 from django.db import models
-from django.db.models import CASCADE, OneToOneField, ForeignKey, ManyToManyField
-from django.forms import IntegerField
+from django.db.models import CASCADE, OneToOneField, ForeignKey, ManyToManyField, IntegerField, \
+    BooleanField
 
 from msf_user.models import User
 from character.models import Character, Material
@@ -11,26 +11,19 @@ class Roster(models.Model):
 
 
 class CharacterInstance(models.Model):
-    roster = OneToOneField(Roster, on_delete=CASCADE)
+    roster = ForeignKey(Roster, on_delete=CASCADE)
     character = ForeignKey(Character, on_delete=CASCADE)
-    level = IntegerField(
-        min_value=1,
-        max_value=70
-    )
-    stars = IntegerField(
-        min_value=1,
-        max_value=7
-    )
-    red_stars = IntegerField(
-        min_value=1,
-        max_value=7
-    )
-    gear_tier_level = IntegerField(
-        min_value=1,
-        max_value=13
-    )
+    level = IntegerField(default=1)
+    stars = IntegerField(default=1)
+    red_stars = IntegerField(default=1)
+    gear_tier_level = IntegerField(default=1)
     current_gear_materials = ManyToManyField(
         Material,
         blank=True
     )
+    unlocked = BooleanField(default=False)
+
+    class Meta:
+        ordering = ['character__name']
+        unique_together = ('character', 'roster')
 
