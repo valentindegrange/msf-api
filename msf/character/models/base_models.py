@@ -28,6 +28,9 @@ class Trait(models.Model):
     name = CharField(max_length=64, unique=True)
     trait_type = CharField(max_length=64, choices=TRAIT_TYPES)
 
+    def __str__(self):
+        return self.name
+
 
 class Character(models.Model):
     name = CharField(max_length=64, unique=True)
