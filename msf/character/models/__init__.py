@@ -4,5 +4,6 @@ from .base_models import (
     MaterialBonus,
     Material,
     GearTier,
-    Character
+    Character,
+    Trait
 )
