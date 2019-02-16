@@ -30,6 +30,7 @@ class CharacterInstance(models.Model):
         max_value=13
     )
     current_gear_materials = ManyToManyField(
-        Material
+        Material,
+        blank=True
     )
 
