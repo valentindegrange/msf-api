@@ -9,6 +9,9 @@ from character.models import Character, Material
 class Roster(models.Model):
     user = OneToOneField(User, on_delete=CASCADE)
 
+    def __str__(self):
+        return f"{self.user.username}'s Roster"
+
 
 class CharacterInstance(models.Model):
     roster = ForeignKey(Roster, on_delete=CASCADE)
@@ -28,5 +31,5 @@ class CharacterInstance(models.Model):
         unique_together = ('character', 'roster')
 
     def __str__(self):
-        return f"{self.character.name} - lvl{self.level} - {self.stars}* - {self.red_stars}RS - Tier {self.gear_tier_level}"
+        return f"{str(self.roster)} - {self.character.name} - lvl {self.level} - {self.stars}* - {self.red_stars}RS - Tier {self.gear_tier_level}"
 
