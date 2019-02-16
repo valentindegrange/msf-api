@@ -6,6 +6,6 @@ from character.models import Character
 
 
 # list all available characters
-class CharacterListViewSet(ReadOnlyModelViewSet):
+class CharacterViewSet(ReadOnlyModelViewSet):
     queryset = Character.objects.all()
     serializer_class = CharacterSerializer
