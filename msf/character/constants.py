@@ -23,3 +23,19 @@ GEAR_STATISTICS = (
     RESISTANCE
 )
 
+TRAIT_SIDE = ('Side', 'Side')
+TRAIT_TRAIT = ('Trait', 'Trait')
+TRAIT_ORIGIN = ('Origin', 'Origin')
+TRAIT_TEAM = ('Team', 'Team')
+TRAIT_ROLE = ('Role', 'Role')
+TRAIT_FLAVOR = ('Flavor', 'Flavor')
+
+TRAIT_TYPES = (
+    TRAIT_SIDE,
+    TRAIT_TRAIT,
+    TRAIT_ORIGIN,
+    TRAIT_TEAM,
+    TRAIT_ROLE,
+    TRAIT_FLAVOR
+)
+

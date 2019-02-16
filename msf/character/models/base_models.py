@@ -1,7 +1,7 @@
 from django.db import models
-from django.db.models import CharField, ManyToManyField, BooleanField
+from django.db.models import CharField, ManyToManyField, BooleanField, TextField
 from django.forms import IntegerField
-from character.constants import GEAR_STATISTICS
+from character.constants import GEAR_STATISTICS, TRAIT_TYPES
 
 
 class MaterialBonus(models.Model):
@@ -10,13 +10,6 @@ class MaterialBonus(models.Model):
 
     def __str__(self):
         return f"{self.name}: +{self.value}"
-
-
-class CharacterType(models.Model):
-    name = CharField(max_length=64, unique=True)
-
-    def __str__(self):
-        return self.name
 
 
 class Material(models.Model):
@@ -31,9 +24,16 @@ class GearTier(models.Model):
     materials = ManyToManyField(Material, related_name="gear_tiers")
 
 
+class Trait(models.Model):
+    name = CharField(max_length=64, unique=True)
+    trait_type = CharField(max_length=64, choices=TRAIT_TYPES)
+
+
 class Character(models.Model):
     name = CharField(max_length=64, unique=True)
-    character_types = ManyToManyField(CharacterType)
+    # character_types = ManyToManyField(CharacterType)
     # Todo: set unique gear_tier per level
     gear_tiers = ManyToManyField(GearTier)
     available = BooleanField(default=True)
+    traits = ManyToManyField(Trait)
+    description = TextField(blank=True)
