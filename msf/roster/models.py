@@ -15,7 +15,7 @@ class CharacterInstance(models.Model):
     character = ForeignKey(Character, on_delete=CASCADE)
     level = IntegerField(default=1)
     stars = IntegerField(default=1)
-    red_stars = IntegerField(default=1)
+    red_stars = IntegerField(default=0)
     gear_tier_level = IntegerField(default=1)
     current_gear_materials = ManyToManyField(
         Material,
@@ -26,4 +26,7 @@ class CharacterInstance(models.Model):
     class Meta:
         ordering = ['character__name']
         unique_together = ('character', 'roster')
+
+    def __str__(self):
+        return f"{self.character.name} - lvl{self.level} - {self.stars}* - {self.red_stars}RS - Tier {self.gear_tier_level}"
 
