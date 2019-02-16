@@ -32,8 +32,11 @@ class Trait(models.Model):
 class Character(models.Model):
     name = CharField(max_length=64, unique=True)
     # character_types = ManyToManyField(CharacterType)
-    # Todo: set unique gear_tier per level
     gear_tiers = ManyToManyField(GearTier, blank=True)
     available = BooleanField(default=True)
     traits = ManyToManyField(Trait, blank=True)
     description = TextField(blank=True)
+
+    def __str__(self):
+        return self.name
+
