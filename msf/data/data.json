@@ -1,300 +1,301 @@
 {
-  "A.I.M ASSAULTER": {
-"available": true
-},
-  "A.I.M INFECTOR": {
-"available": true
-},
-  "A.I.M MONSTROSITY": {
-"available": true
-},
-  "A.I.M RESEARCHER": {
-"available": true
-},
-  "A.I.M SECURITY": {
-"available": true
-},
-  "ANT-MAN": {
-"available": true
-},
-  "BLACK PANTHER": {
-"available": true
-},
-  "BLACK WIDOW": {
-"available": true
-},
-  "BULLSEYE": {
-"available": true
-},
-  "CABLE": {
-"available": true
-},
-  "CAPTAIN AMERICA": {
-"available": true
-},
-  "CARNAGE": {
-"available": true
-},
-  "CROSSBONES": {
-"available": true
-},
-  "DAREDEVIL": {
-"available": true
-},
-  "DEADPOOL": {
-"available": true
-},
-  "DOCTOR STRANGE": {
-"available": true
-},
-  "DRAX": {
-"available": true
-},
-  "ELECTRA": {
-"available": true
-},
-  "GAMORA": {
-"available": true
-},
-  "GREEN GOBLIN": {
-"available": true
-},
-  "GROOT": {
-"available": true
-},
-  "HAND ARCHER": {
-"available": true
-},
-  "HAND ASSASSIN": {
-"available": true
-},
-  "HAND BLADEMASTER": {
-"available": true
-},
-  "HAND SENTRY": {
-"available": true
-},
-  "HAND SORCERESS": {
-"available": true
-},
-  "HAWKEYE": {
-"available": true
-},
-  "HULK": {
-"available": true
-},
-  "HYDRA ARMORED GUARD": {
-"available": true
-},
-  "HYDRA GRENADIER": {
-"available": true
-},
-  "HYDRA RIFFLE TROOPER": {
-"available": true
-},
-  "HYDRA SCIENTIST": {
-"available": true
-},
-  "HYDRA SNIPER": {
-"available": true
-},
-  "IRON FIST": {
-"available": true
-},
-  "IRON MAN": {
-"available": true
-},
-  "JESSICA JONES": {
-"available": true
-},
-  "JUGGERNAUT": {
-"available": true
-},
-  "KINGPIN": {
-"available": true
-},
-  "KORATH THE PURSUER": {
-"available": true
-},
-  "KREE CYBORG": {
-"available": true
-},
-  "KREE NOBLE": {
-"available": true
-},
-  "KREE ORACLE": {
-"available": true
-},
-  "KREE REAPER": {
-"available": true
-},
-  "KREE ROYAL GUARD": {
-"available": true
-},
-  "LOKI": {
-"available": true
-},
-  "LOKI MINION": {
-"available": false
-},
-  "LUKE CAGE": {
-"available": true
-},
-  "MAGNETO": {
-"available": true
-},
-  "MANTIS": {
-"available": true
-},
-  "MERCENARY BODY GUARD": {
-"available": false
-},
-  "MERCENARY LIEUTENANT": {
-"available": true
-},
-  "MERCENARY RIOT GUARD": {
-"available": true
-},
-  "MERCENARY SNIPER": {
-"available": true
-},
-  "MERCENARY SOLDIER": {
-"available": true
-},
-  "MORDO": {
-"available": true
-},
-  "MS. MARVEL": {
-"available": true
-},
-  "MYSTIQUE": {
-"available": true
-},
-  "NEBULA": {
-"available": true
-},
-  "NICK FURY": {
-"available": true
-},
-  "NIGHT NURSE": {
-"available": true
-},
-  "NOBU": {
-"available": true
-},
-  "OKOYE": {
-"available": false
-},
-  "PUNISHER": {
-"available": true
-},
-  "PYRO": {
-"available": true
-},
-  "QUAKE": {
-"available": true
-},
-  "RAVAGER BOOMER": {
-"available": true
-},
-  "RAVAGER BRUISER": {
-"available": true
-},
-  "RAVAGER STITCHER": {
-"available": true
-},
-  "RED SKULL": {
-"available": false
-},
-  "ROCKET RACOON": {
-"available": true
-},
-  "RONAN THE ACCUSER": {
-"available": true
-},
-  "S.H.I.E.L.D ASSAULT": {
-"available": true
-},
-  "S.H.I.E.L.D MEDIC": {
-"available": true
-},
-  "S.H.I.E.L.D OPERATIVE": {
-"available": true
-},
-  "S.H.I.E.L.D SECURITY": {
-"available": true
-},
-  "S.H.I.E.L.D TROOPER": {
-"available": true
-},
-  "SABERTOOTH": {
-"available": true
-},
-  "SCARLET WITCH": {
-"available": true
-},
-  "SCIENTIST SUPREME": {
-"available": true
-},
-  "SPIDER-MAN": {
-"available": true
-},
-  "SPIDER-MAN (MILES)": {
-"available": true
-},
-  "STAR-LORD": {
-"available": true
-},
-  "STORM": {
-"available": true
-},
-  "THANOS": {
-"available": true
-},
-  "THOR": {
-"available": true
-},
-  "ULTIMUS": {
-"available": true
-},
-  "ULTRON": {
-"available": true
-},
-  "ULTRON ACCELERATOR": {
-"available": false
-},
-  "ULTRON FABRICATOR": {
-"available": false
-},
-  "ULTRON FORTIFIER": {
-"available": false
-},
-  "ULTRON INCINERATOR": {
-"available": false
-},
-  "ULTRON REINFORCER": {
-"available": false
-},
-  "VENOM": {
-"available": true
-},
-  "VISION": {
-"available": true
-},
-  "WAR MACHINE": {
-"available": true
-},
-  "WASP": {
-"available": true
-},
-  "WINTER SOLDIER": {
-"available": true
-},
-  "WOLVERINE": {
-"available": true
-},
-  "YONDU": {
-"available": true
-}
-
+  "characters": {
+    "A.I.M ASSAULTER": {
+      "available": true
+    },
+    "A.I.M INFECTOR": {
+      "available": true
+    },
+    "A.I.M MONSTROSITY": {
+      "available": true
+    },
+    "A.I.M RESEARCHER": {
+      "available": true
+    },
+    "A.I.M SECURITY": {
+      "available": true
+    },
+    "ANT-MAN": {
+      "available": true
+    },
+    "BLACK PANTHER": {
+      "available": true
+    },
+    "BLACK WIDOW": {
+      "available": true
+    },
+    "BULLSEYE": {
+      "available": true
+    },
+    "CABLE": {
+      "available": true
+    },
+    "CAPTAIN AMERICA": {
+      "available": true
+    },
+    "CARNAGE": {
+      "available": true
+    },
+    "CROSSBONES": {
+      "available": true
+    },
+    "DAREDEVIL": {
+      "available": true
+    },
+    "DEADPOOL": {
+      "available": true
+    },
+    "DOCTOR STRANGE": {
+      "available": true
+    },
+    "DRAX": {
+      "available": true
+    },
+    "ELECTRA": {
+      "available": true
+    },
+    "GAMORA": {
+      "available": true
+    },
+    "GREEN GOBLIN": {
+      "available": true
+    },
+    "GROOT": {
+      "available": true
+    },
+    "HAND ARCHER": {
+      "available": true
+    },
+    "HAND ASSASSIN": {
+      "available": true
+    },
+    "HAND BLADEMASTER": {
+      "available": true
+    },
+    "HAND SENTRY": {
+      "available": true
+    },
+    "HAND SORCERESS": {
+      "available": true
+    },
+    "HAWKEYE": {
+      "available": true
+    },
+    "HULK": {
+      "available": true
+    },
+    "HYDRA ARMORED GUARD": {
+      "available": true
+    },
+    "HYDRA GRENADIER": {
+      "available": true
+    },
+    "HYDRA RIFFLE TROOPER": {
+      "available": true
+    },
+    "HYDRA SCIENTIST": {
+      "available": true
+    },
+    "HYDRA SNIPER": {
+      "available": true
+    },
+    "IRON FIST": {
+      "available": true
+    },
+    "IRON MAN": {
+      "available": true
+    },
+    "JESSICA JONES": {
+      "available": true
+    },
+    "JUGGERNAUT": {
+      "available": true
+    },
+    "KINGPIN": {
+      "available": true
+    },
+    "KORATH THE PURSUER": {
+      "available": true
+    },
+    "KREE CYBORG": {
+      "available": true
+    },
+    "KREE NOBLE": {
+      "available": true
+    },
+    "KREE ORACLE": {
+      "available": true
+    },
+    "KREE REAPER": {
+      "available": true
+    },
+    "KREE ROYAL GUARD": {
+      "available": true
+    },
+    "LOKI": {
+      "available": true
+    },
+    "LOKI MINION": {
+      "available": false
+    },
+    "LUKE CAGE": {
+      "available": true
+    },
+    "MAGNETO": {
+      "available": true
+    },
+    "MANTIS": {
+      "available": true
+    },
+    "MERCENARY BODY GUARD": {
+      "available": false
+    },
+    "MERCENARY LIEUTENANT": {
+      "available": true
+    },
+    "MERCENARY RIOT GUARD": {
+      "available": true
+    },
+    "MERCENARY SNIPER": {
+      "available": true
+    },
+    "MERCENARY SOLDIER": {
+      "available": true
+    },
+    "MORDO": {
+      "available": true
+    },
+    "MS. MARVEL": {
+      "available": true
+    },
+    "MYSTIQUE": {
+      "available": true
+    },
+    "NEBULA": {
+      "available": true
+    },
+    "NICK FURY": {
+      "available": true
+    },
+    "NIGHT NURSE": {
+      "available": true
+    },
+    "NOBU": {
+      "available": true
+    },
+    "OKOYE": {
+      "available": false
+    },
+    "PUNISHER": {
+      "available": true
+    },
+    "PYRO": {
+      "available": true
+    },
+    "QUAKE": {
+      "available": true
+    },
+    "RAVAGER BOOMER": {
+      "available": true
+    },
+    "RAVAGER BRUISER": {
+      "available": true
+    },
+    "RAVAGER STITCHER": {
+      "available": true
+    },
+    "RED SKULL": {
+      "available": false
+    },
+    "ROCKET RACOON": {
+      "available": true
+    },
+    "RONAN THE ACCUSER": {
+      "available": true
+    },
+    "S.H.I.E.L.D ASSAULT": {
+      "available": true
+    },
+    "S.H.I.E.L.D MEDIC": {
+      "available": true
+    },
+    "S.H.I.E.L.D OPERATIVE": {
+      "available": true
+    },
+    "S.H.I.E.L.D SECURITY": {
+      "available": true
+    },
+    "S.H.I.E.L.D TROOPER": {
+      "available": true
+    },
+    "SABERTOOTH": {
+      "available": true
+    },
+    "SCARLET WITCH": {
+      "available": true
+    },
+    "SCIENTIST SUPREME": {
+      "available": true
+    },
+    "SPIDER-MAN": {
+      "available": true
+    },
+    "SPIDER-MAN (MILES)": {
+      "available": true
+    },
+    "STAR-LORD": {
+      "available": true
+    },
+    "STORM": {
+      "available": true
+    },
+    "THANOS": {
+      "available": true
+    },
+    "THOR": {
+      "available": true
+    },
+    "ULTIMUS": {
+      "available": true
+    },
+    "ULTRON": {
+      "available": true
+    },
+    "ULTRON ACCELERATOR": {
+      "available": false
+    },
+    "ULTRON FABRICATOR": {
+      "available": false
+    },
+    "ULTRON FORTIFIER": {
+      "available": false
+    },
+    "ULTRON INCINERATOR": {
+      "available": false
+    },
+    "ULTRON REINFORCER": {
+      "available": false
+    },
+    "VENOM": {
+      "available": true
+    },
+    "VISION": {
+      "available": true
+    },
+    "WAR MACHINE": {
+      "available": true
+    },
+    "WASP": {
+      "available": true
+    },
+    "WINTER SOLDIER": {
+      "available": true
+    },
+    "WOLVERINE": {
+      "available": true
+    },
+    "YONDU": {
+      "available": true
+    }
+  }
 }
