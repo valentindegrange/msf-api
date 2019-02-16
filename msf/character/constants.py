@@ -23,6 +23,18 @@ GEAR_STATISTICS = (
     RESISTANCE
 )
 
+GREEN_MATERIAL_COLOR = ('Green', 'Green')
+BLUE_MATERIAL_COLOR = ('Blue', 'Blue')
+PURPLE_MATERIAL_COLOR = ('Purple', 'Purple')
+ORANGE_MATERIAL_COLOR = ('Orange', 'Orange')
+
+MATERIAL_COLORS = (
+    GREEN_MATERIAL_COLOR,
+    BLUE_MATERIAL_COLOR,
+    PURPLE_MATERIAL_COLOR,
+    ORANGE_MATERIAL_COLOR
+)
+
 TRAIT_SIDE = ('Side', 'Side')
 TRAIT_TRAIT = ('Trait', 'Trait')
 TRAIT_ORIGIN = ('Origin', 'Origin')

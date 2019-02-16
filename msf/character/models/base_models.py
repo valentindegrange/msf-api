@@ -1,12 +1,11 @@
 from django.db import models
-from django.db.models import CharField, ManyToManyField, BooleanField, TextField
-from django.forms import IntegerField
-from character.constants import GEAR_STATISTICS, TRAIT_TYPES
+from django.db.models import CharField, ManyToManyField, BooleanField, TextField, IntegerField
+from character.constants import GEAR_STATISTICS, TRAIT_TYPES, MATERIAL_COLORS, GREEN_MATERIAL_COLOR
 
 
 class MaterialBonus(models.Model):
     name = CharField(choices=GEAR_STATISTICS, max_length=64)
-    value = IntegerField()
+    value = IntegerField(default=0)
 
     def __str__(self):
         return f"{self.name}: +{self.value}"
@@ -15,12 +14,13 @@ class MaterialBonus(models.Model):
 class Material(models.Model):
     name = CharField(max_length=64, unique=True)
     components = ManyToManyField("self", blank=True, related_name="materials")
-    cost = IntegerField()
+    cost = IntegerField(default=0)
+    color = CharField(max_length=64, choices=MATERIAL_COLORS, default=GREEN_MATERIAL_COLOR)
     material_bonuses = ManyToManyField(MaterialBonus, related_name="materials")
 
 
 class GearTier(models.Model):
-    level = IntegerField(min_value=1, max_value=13)
+    level = IntegerField(default=1)
     materials = ManyToManyField(Material, related_name="gear_tiers")
 
 
