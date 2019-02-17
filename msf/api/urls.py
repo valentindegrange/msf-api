@@ -13,10 +13,10 @@ from api.views import (
 app_name = 'api'
 
 router = DefaultRouter()
-router.register(r'characters', CharacterViewSet, basename='character')
-router.register(r'character-instances', CharacterInstanceViewSet, basename='character-instance')
-router.register(r'materials', MaterialViewSet, basename='material')
-router.register(r'traits', TraitViewSet, basename='material')
+router.register(r'characters', CharacterViewSet, basename='characters')
+router.register(r'character-instances', CharacterInstanceViewSet, basename='character-instances')
+router.register(r'materials', MaterialViewSet, basename='materials')
+router.register(r'traits', TraitViewSet, basename='traits')
 
 urlpatterns = [
     path('roster', CurrentUserRosterView.as_view(), name="current_roster"),
