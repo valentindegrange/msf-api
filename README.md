@@ -42,6 +42,7 @@ _Using the different aliases in order to ease up this part. If you have not set 
 - Migrate your database: `manage migrate`
 - Create a Django superuser: `manage createsuperuser`
 
+
 That's it! Your project is ready to be run
 
 ### Optional: Pre-populate Database
