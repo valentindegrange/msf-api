@@ -8,3 +8,7 @@ from .characters import (
 from .rosters import (
     RosterSerializer
 )
+
+from .materials import (
+    MaterialSerializer
+)

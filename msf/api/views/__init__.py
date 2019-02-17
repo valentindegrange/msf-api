@@ -9,3 +9,7 @@ from .rosters import (
     CurrentUserRosterView,
     SharedRosterView
 )
+
+from .materials import (
+    MaterialViewSet
+)
