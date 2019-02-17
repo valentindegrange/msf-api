@@ -8,6 +8,7 @@ from character.models import Character, Material
 
 class Roster(models.Model):
     user = OneToOneField(User, on_delete=CASCADE)
+    shareable = BooleanField(default=False)
 
     def __str__(self):
         return f"{self.user.username}'s Roster"
