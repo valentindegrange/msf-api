@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 from rest_framework.viewsets import ReadOnlyModelViewSet, ModelViewSet
-from rest_framework.response import Response
 
 from api.serializers import (
     CharacterSerializer,
