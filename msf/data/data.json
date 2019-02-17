@@ -1,301 +1,450 @@
 {
+  "traits": {
+    "Side": [
+      "Hero",
+      "Villain"
+    ],
+    "Trait": [
+      "Bio",
+      "Mutant",
+      "Mystic",
+      "Skill",
+      "Tech"
+    ],
+    "Origin": [
+      "Asgard",
+      "City",
+      "Cosmic",
+      "Global"
+    ],
+    "Team": [
+      "A.I.M",
+      "Avenger",
+      "Brotherhood",
+      "Defender",
+      "Guardian",
+      "Hand",
+      "Hydra",
+      "Kree",
+      "Mercenary",
+      "Ravager",
+      "S.H.I.E.L.D",
+      "SpiderVerse",
+      "Ultron",
+      "Wakanda",
+      "Xmen",
+      "Xforce"
+    ],
+    "Role": [
+      "Blaster",
+      "Brawler",
+      "Controller",
+      "Protector",
+      "Support"
+    ],
+    "Flavor": [
+      "Eternal",
+      "Inhuman",
+      "Martial Artist",
+      "Minion"
+    ]
+  },
   "characters": {
     "A.I.M ASSAULTER": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "A.I.M INFECTOR": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "A.I.M MONSTROSITY": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "A.I.M RESEARCHER": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "A.I.M SECURITY": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "ANT-MAN": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "BLACK PANTHER": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "BLACK WIDOW": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "BULLSEYE": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "CABLE": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "CAPTAIN AMERICA": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "CARNAGE": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "CROSSBONES": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "DAREDEVIL": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "DEADPOOL": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "DOCTOR STRANGE": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "DRAX": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "ELECTRA": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "GAMORA": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "GREEN GOBLIN": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "GROOT": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "HAND ARCHER": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "HAND ASSASSIN": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "HAND BLADEMASTER": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "HAND SENTRY": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "HAND SORCERESS": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "HAWKEYE": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "HULK": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "HYDRA ARMORED GUARD": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "HYDRA GRENADIER": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "HYDRA RIFFLE TROOPER": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "HYDRA SCIENTIST": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "HYDRA SNIPER": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "IRON FIST": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "IRON MAN": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "JESSICA JONES": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "JUGGERNAUT": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "KINGPIN": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "KORATH THE PURSUER": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "KREE CYBORG": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "KREE NOBLE": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "KREE ORACLE": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "KREE REAPER": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "KREE ROYAL GUARD": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "LOKI": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "LOKI MINION": {
-      "available": false
+      "available": false,
+      "traits": ["Villain"]
     },
     "LUKE CAGE": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "MAGNETO": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "MANTIS": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "MERCENARY BODY GUARD": {
-      "available": false
+      "available": false,
+      "traits": ["Villain"]
     },
     "MERCENARY LIEUTENANT": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "MERCENARY RIOT GUARD": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "MERCENARY SNIPER": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "MERCENARY SOLDIER": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "MORDO": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "MS. MARVEL": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "MYSTIQUE": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "NEBULA": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "NICK FURY": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "NIGHT NURSE": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "NOBU": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "OKOYE": {
-      "available": false
+      "available": false,
+      "traits": ["Villain"]
     },
     "PUNISHER": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "PYRO": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "QUAKE": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "RAVAGER BOOMER": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "RAVAGER BRUISER": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "RAVAGER STITCHER": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "RED SKULL": {
-      "available": false
+      "available": false,
+      "traits": ["Villain"]
     },
     "ROCKET RACOON": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "RONAN THE ACCUSER": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "S.H.I.E.L.D ASSAULT": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "S.H.I.E.L.D MEDIC": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "S.H.I.E.L.D OPERATIVE": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "S.H.I.E.L.D SECURITY": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "S.H.I.E.L.D TROOPER": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "SABERTOOTH": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "SCARLET WITCH": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "SCIENTIST SUPREME": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "SPIDER-MAN": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "SPIDER-MAN (MILES)": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "STAR-LORD": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "STORM": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "THANOS": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "THOR": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "ULTIMUS": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "ULTRON": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "ULTRON ACCELERATOR": {
-      "available": false
+      "available": false,
+      "traits": ["Villain"]
     },
     "ULTRON FABRICATOR": {
-      "available": false
+      "available": false,
+      "traits": ["Villain"]
     },
     "ULTRON FORTIFIER": {
-      "available": false
+      "available": false,
+      "traits": ["Villain"]
     },
     "ULTRON INCINERATOR": {
-      "available": false
+      "available": false,
+      "traits": ["Villain"]
     },
     "ULTRON REINFORCER": {
-      "available": false
+      "available": false,
+      "traits": ["Villain"]
     },
     "VENOM": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "VISION": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "WAR MACHINE": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "WASP": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "WINTER SOLDIER": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     },
     "WOLVERINE": {
-      "available": true
+      "available": true,
+      "traits": ["Hero"]
     },
     "YONDU": {
-      "available": true
+      "available": true,
+      "traits": ["Villain"]
     }
   }
 }
