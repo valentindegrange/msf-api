@@ -1,12 +1,15 @@
 # -*- coding: utf-8 -*-
 
-from rest_framework.serializers import ModelSerializer
+from rest_framework import serializers
+from rest_framework.serializers import HyperlinkedModelSerializer
 
 from character.models import Trait
 
 
-class TraitSerializer(ModelSerializer):
+class TraitSerializer(HyperlinkedModelSerializer):
+
+    url = serializers.HyperlinkedIdentityField(view_name='api:traits-detail')
 
     class Meta:
         model = Trait
-        fields = ('id', 'name', 'trait_type')
+        fields = ('id', 'name', 'trait_type', 'url')
