@@ -446,5 +446,54 @@
       "available": true,
       "traits": ["Villain"]
     }
+  },
+  "base_materials": {
+    "1": [
+      "Beta Cloth",
+      "Classified Files",
+      "Close Combat Tactics",
+      "Crystals",
+      "DNA",
+      "Morphic Peptides",
+      "Parchments",
+      "Polymers",
+      "Security Clearance",
+      "Secure Comlink",
+      "Serum 612",
+      "S.T.R.I.K.E Tactics Manual",
+      "X-Gene",
+      "X-Rays",
+      "Silicon Matrix"
+    ],
+    "2": [
+      "Improved Arcane Powder",
+      "Improved Armor Catalyst Part",
+      "Improved Basic Catalyst Part",
+      "Improved Chaotic Ribosomes",
+      "Improved Charged Particles",
+      "Improved Closed Combats Tactics",
+      "Improved Confidential Dossiers",
+      "Improved Damage Catalyst Part",
+      "Improved Encoded Data",
+      "Improved Focus Catalyst Part",
+      "Improved Health Catalyst Part",
+      "Improved Isomer",
+      "Improved Metabolic Enhancers",
+      "Improved Morphic Peptides",
+      "Improved MRI",
+      "Improved Omnium Ore",
+      "Improved Parchment",
+      "Improved Resistance Catalyst Part",
+      "Improved Secret Intel",
+      "Improved Sigil",
+      "Improved Silicon Matrix",
+      "Improved Spliced X-Gene",
+      "Improved Syringe",
+      "Improved Unstable Molecules",
+      "Improved Vial",
+      "Improved X-Rays"
+    ],
+    "3": [],
+    "4": []
   }
 }

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.db import transaction
 
-from character.models import Character, Trait
+from character.models import Character, Trait, Material
 import json
 
 
@@ -16,6 +16,9 @@ def run():
     characters_created = build_characters(character_data['characters'])
     print('Characters:')
     print(characters_created)
+    materials_created = build_base_materials(character_data['base_materials'])
+    print('Materials:')
+    print(materials_created)
 
 
 def build_traits(traits_dict):
@@ -53,3 +56,22 @@ def build_characters(characters_dict):
             results['updated']['characters'].append(char)
             results['updated']['count'] += 1
     return results
+
+
+def build_base_materials(base_materials_dict):
+    results = dict(created=dict(materials=list(), count=0),
+                   updated=dict(materials=list(), count=0))
+
+    for material_color, materials in base_materials_dict.items():
+        for material_name in materials:
+            material, created = Material.objects.update_or_create(name=material_name, color=material_color)
+
+            if created is True:
+                results['created']['materials'].append(material)
+                results['created']['count'] += 1
+            # the character has been updated
+            else:
+                results['updated']['materials'].append(material)
+                results['updated']['count'] += 1
+    return results
+
