@@ -8,7 +8,7 @@ from character.models import Trait
 
 class TraitSerializer(HyperlinkedModelSerializer):
 
-    url = serializers.HyperlinkedIdentityField(view_name='api:traits-detail')
+    url = serializers.HyperlinkedIdentityField(view_name='api:trait-detail')
 
     class Meta:
         model = Trait
