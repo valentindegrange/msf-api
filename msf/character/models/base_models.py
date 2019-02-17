@@ -49,7 +49,6 @@ class Material(models.Model):
         return material_color_string
 
 
-
 class GearTier(models.Model):
     level = IntegerField(default=1)
     materials = ManyToManyField(Material, related_name="gear_tiers")
@@ -58,6 +57,9 @@ class GearTier(models.Model):
 class Trait(models.Model):
     name = CharField(max_length=64, unique=True)
     trait_type = CharField(max_length=64, choices=TRAIT_TYPES)
+
+    class Meta:
+        ordering = ['trait_type', 'name']
 
     def __str__(self):
         return self.name

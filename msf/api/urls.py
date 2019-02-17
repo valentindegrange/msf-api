@@ -6,7 +6,8 @@ from api.views import (
     CharacterInstanceViewSet,
     CurrentUserRosterView,
     SharedRosterView,
-    MaterialViewSet
+    MaterialViewSet,
+    TraitViewSet
 )
 
 app_name = 'api'
@@ -15,6 +16,7 @@ router = DefaultRouter()
 router.register(r'characters', CharacterViewSet, basename='character')
 router.register(r'character-instances', CharacterInstanceViewSet, basename='character-instance')
 router.register(r'materials', MaterialViewSet, basename='material')
+router.register(r'traits', TraitViewSet, basename='material')
 
 urlpatterns = [
     path('roster', CurrentUserRosterView.as_view(), name="current_roster"),

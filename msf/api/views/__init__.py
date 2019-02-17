@@ -13,3 +13,7 @@ from .rosters import (
 from .materials import (
     MaterialViewSet
 )
+
+from .traits import (
+    TraitViewSet
+)

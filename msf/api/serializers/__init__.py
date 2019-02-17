@@ -12,3 +12,7 @@ from .rosters import (
 from .materials import (
     MaterialSerializer
 )
+
+from .traits import (
+    TraitSerializer
+)
