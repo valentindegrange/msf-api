@@ -18,7 +18,7 @@
       "Global"
     ],
     "Team": [
-      "A.I.M",
+      "Aim",
       "Avenger",
       "Brotherhood",
       "Defender",
@@ -46,407 +46,107 @@
       "Eternal",
       "Inhuman",
       "Martial Artist",
-      "Minion"
+      "Minion",
+      "Military"
     ]
   },
   "characters": {
-    "A.I.M ASSAULTER": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "A.I.M INFECTOR": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "A.I.M MONSTROSITY": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "A.I.M RESEARCHER": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "A.I.M SECURITY": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "ANT-MAN": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "BLACK PANTHER": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "BLACK WIDOW": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "BULLSEYE": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "CABLE": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "CAPTAIN AMERICA": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "CARNAGE": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "CROSSBONES": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "DAREDEVIL": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "DEADPOOL": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "DOCTOR STRANGE": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "DRAX": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "ELECTRA": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "GAMORA": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "GREEN GOBLIN": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "GROOT": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "HAND ARCHER": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "HAND ASSASSIN": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "HAND BLADEMASTER": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "HAND SENTRY": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "HAND SORCERESS": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "HAWKEYE": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "HULK": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "HYDRA ARMORED GUARD": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "HYDRA GRENADIER": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "HYDRA RIFFLE TROOPER": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "HYDRA SCIENTIST": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "HYDRA SNIPER": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "IRON FIST": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "IRON MAN": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "JESSICA JONES": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "JUGGERNAUT": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "KINGPIN": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "KORATH THE PURSUER": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "KREE CYBORG": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "KREE NOBLE": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "KREE ORACLE": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "KREE REAPER": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "KREE ROYAL GUARD": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "LOKI": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "LOKI MINION": {
-      "available": false,
-      "traits": ["Villain"]
-    },
-    "LUKE CAGE": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "MAGNETO": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "MANTIS": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "MERCENARY BODY GUARD": {
-      "available": false,
-      "traits": ["Villain"]
-    },
-    "MERCENARY LIEUTENANT": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "MERCENARY RIOT GUARD": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "MERCENARY SNIPER": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "MERCENARY SOLDIER": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "MORDO": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "MS. MARVEL": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "MYSTIQUE": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "NEBULA": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "NICK FURY": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "NIGHT NURSE": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "NOBU": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "OKOYE": {
-      "available": false,
-      "traits": ["Villain"]
-    },
-    "PUNISHER": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "PYRO": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "QUAKE": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "RAVAGER BOOMER": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "RAVAGER BRUISER": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "RAVAGER STITCHER": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "RED SKULL": {
-      "available": false,
-      "traits": ["Villain"]
-    },
-    "ROCKET RACOON": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "RONAN THE ACCUSER": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "S.H.I.E.L.D ASSAULT": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "S.H.I.E.L.D MEDIC": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "S.H.I.E.L.D OPERATIVE": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "S.H.I.E.L.D SECURITY": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "S.H.I.E.L.D TROOPER": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "SABERTOOTH": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "SCARLET WITCH": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "SCIENTIST SUPREME": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "SPIDER-MAN": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "SPIDER-MAN (MILES)": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "STAR-LORD": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "STORM": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "THANOS": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "THOR": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "ULTIMUS": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "ULTRON": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "ULTRON ACCELERATOR": {
-      "available": false,
-      "traits": ["Villain"]
-    },
-    "ULTRON FABRICATOR": {
-      "available": false,
-      "traits": ["Villain"]
-    },
-    "ULTRON FORTIFIER": {
-      "available": false,
-      "traits": ["Villain"]
-    },
-    "ULTRON INCINERATOR": {
-      "available": false,
-      "traits": ["Villain"]
-    },
-    "ULTRON REINFORCER": {
-      "available": false,
-      "traits": ["Villain"]
-    },
-    "VENOM": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "VISION": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "WAR MACHINE": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "WASP": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "WINTER SOLDIER": {
-      "available": true,
-      "traits": ["Villain"]
-    },
-    "WOLVERINE": {
-      "available": true,
-      "traits": ["Hero"]
-    },
-    "YONDU": {
-      "available": true,
-      "traits": ["Villain"]
-    }
-  },
+"A.I.M. Infector": {"available": true, "traits": ["Villain", "Global", "Bio", "Controller", "Aim", "Minion"], "description": "A virulent attacker who prevents healing and passes negative effects to his targets."},
+"A.I.M. Monstrosity": {"available": true, "traits": ["Villain", "Global", "Bio", "Brawler", "Aim", "Minion"], "description": "A massive brute that gains strength at the expense of vulnerability."},
+"A.I.M. Assaulter": {"available": true, "traits": ["Villain", "Global", "Tech", "Blaster", "Aim", "Minion"], "description": "An aggressive soldier who sacrifices healing for rapid attacks."},
+"A.I.M. Researcher": {"available": true, "traits": ["Villain", "Global", "Skill", "Support", "Aim", "Minion"], "description": "A focused healer who applies and removes negative effects."},
+"A.I.M. Security": {"available": true, "traits": ["Villain", "Global", "Tech", "Protector", "Aim", "Minion"], "description": "A resilient guard who taunts while healing herself and slowing her enemies."}, "Ant-Man": {"available": true, "traits": ["Hero", "Global", "Tech", "Controller", "Avenger"], "description": "A master thief skilled at disabling powerful opponents with the help of his Pym Particle powered suit."},
+"Mordo": {"available": true, "traits": ["Villain", "Cosmic", "Mystic", "Controller", "Martial Artist"], "description": "A powerful sorcerer who weakens his enemies with forbidden magic."},
+"Black Panther": {"available": true, "traits": ["Hero", "Global", "Mystic", "Brawler", "Avenger", "Wakanda"], "description": "An agile, relentless hunter who shreds his enemies with rapid attacks."},
+"Black Widow": {"available": true, "traits": ["Skill", "Controller", "Hero", "Avenger"], "description": "A stealthy saboteur who steals enemy advantages and delivers disabling attacks."},
+"Bullseye": {"available": true, "traits": ["Villain", "City", "Skill", "Blaster", "Mercenary"], "description": "A ruthless mercenary who takes down single targets with focused damage and perfect accuracy."},
+"Cable": {"available": true, "traits": ["Hero", "Cosmic", "Mutant", "Blaster", "Xforce"], "description": "A time-traveler from the future who can manipulate turn order and charge up attacks to blast his enemies. "},
+"Captain America": {"available": true, "traits": ["Hero", "Global", "Bio", "Protector", "Avenger", "S.H.I.E.L.D", "Military"], "description": "A resilient leader who provides energy to his team while blocking enemy attacks."},
+"Captain Marvel": {"available": false, "traits": ["Hero", "Cosmic", "Bio", "Brawler", "Kree", "Military"], "description": "A powerful cosmic soldier who breaks down the defenses of multiple foes and gains overwhelming power in Binary form."},
+"Carnage": {"available": true, "traits": ["Villain", "City", "Bio", "Brawler", "SpiderVerse"], "description": "An insane brawler that viciously tears through foes with negative effects, attacking more frequently as their health decreases."},
+"Crossbones": {"available": true, "traits": ["Villain", "Global", "Tech", "Protector", "Hydra"], "description": "A vengeful, die hard bruiser with a devastating explosion attack."},
+"Daredevil": {"available": true, "traits": ["Hero", "City", "Bio", "Brawler", "Defender", "Martial Artist"], "description": "A tough bruiser who delivers bonus attacks, chain attacks, and counterattacks."},
+"Deadpool": {"available": true, "traits": ["Hero", "Global", "Mutant", "Brawler", "Xforce", "Mercenary"], "description": "A magical unicorn who specializes in stab-shooting vulnerable targets."},
+"Doctor Strange": {"available": true, "traits": ["Hero", "Cosmic", "Mystic", "Support"], "description": "Sorcerer Supreme and versatile healer with the ability to remove effects from friends and foes."},
+"Drax": {"available": true, "traits": ["Hero", "Cosmic", "Bio", "Protector", "Guardian"], "description": "An unpredictable, taunting attacker with rapid attacks that drain health."},
+"Elektra": {"available": true, "traits": ["Villain", "City", "Mystic", "Brawler", "Hand", "Martial Artist"], "description": "A stealthy assassin capable of dealing immense damage to a single target."},
+"Gamora": {"available": true, "traits": ["Hero", "Cosmic", "Skill", "Brawler", "Guardian"], "description": "An aggressive warrior who can attack again after defeating an enemy."},
+"Groot": {"available": true, "traits": ["Hero", "Cosmic", "Bio", "Support", "Guardian"], "description": "A resilient healer who defends allies and has a chance to revive. Protective of Rocket Raccoon."},
+"Hand Assassin": {"available": true, "traits": ["Villain", "City", "Mystic", "Controller", "Hand", "Martial Artist", "Minion"], "description": "A quick attacker who prevents healing on a single target."},
+"Hand Blademaster": {"available": true, "traits": ["Villain", "City", "Skill", "Brawler", "Hand", "Martial Artist", "Minion"], "description": "A sword-wielding ninja who assails his target with multiple attacks."},
+"Hand Archer": {"available": true, "traits": ["Villain", "City", "Skill", "Blaster", "Hand", "Martial Artist", "Minion"], "description": "A deadly archer who can clear effects off the enemy team."},
+"Hand Sorceress": {"available": true, "traits": ["Villain", "City", "Mystic", "Support", "Hand", "Martial Artist", "Minion"], "description": "A mystical healer who drains health when attacking."},
+"Hand Sentry": {"available": true, "traits": ["Villain", "City", "Mystic", "Protector", "Hand", "Martial Artist", "Minion"], "description": "An expert martial artist who conceals his allies with smoke bombs."},
+"Hawkeye": {"available": true, "traits": ["Hero", "Global", "Skill", "Controller", "Avenger", "S.H.I.E.L.D"], "description": "An expert archer who delivers unavoidable attacks to disable his foes."},
+"Hulk": {"available": true, "traits": ["Hero", "Global", "Bio", "Protector", "Avenger"], "description": "An incredibly tough taunter who gets stronger when damaged."},
+"Hydra Grenadier": {"available": true, "traits": ["Villain", "Global", "Tech", "Blaster", "Hydra", "Minion"], "description": "Hydra special weapons experts deliver explosive grenade attacks."},
+"Hydra Rifle Trooper": {"available": true, "traits": ["Villain", "Global", "Tech", "Blaster", "Hydra", "Minion"], "description": "Hydra assault troops overwhelm enemies with storms of bullets."},
+"Hydra Sniper": {"available": true, "traits": ["Villain", "Global", "Tech", "Blaster", "Hydra", "Minion"], "description": "Hydra snipers take careful aim before shooting to ensure perfect accuracy."},
+"Hydra Scientist": {"available": true, "traits": ["Villain", "Global", "Skill", "Support", "Hydra", "Minion"], "description": "Hydra scientists use experimental treatments to heal their comrades."},
+"Hydra Armored Guard": {"available": true, "traits": ["Villain", "Global", "Tech", "Protector", "Hydra", "Minion"], "description": "The most loyal and resilient Hydra guards are trained to sacrifice themselves for the cause."},
+"Iron Fist": {"available": true, "traits": ["Hero", "City", "Mystic", "Brawler", "Defender", "Martial Artist"], "description": "A versatile martial artist with healing abilities and a powerful single target attack."},
+"Iron Man": {"available": true, "traits": ["Hero", "Global", "Tech", "Blaster", "Avenger"], "description": "A versatile damage dealer with high armor and low health."},
+"Jessica Jones": {"available": true, "traits": ["Hero", "City", "Bio", "Controller", "Defender"], "description": "A resilient fighter who removes positive effects from enemies and clears negative effects from allies."},
+"Juggernaut": {"available": true, "traits": ["Villain", "Global", "Mystic", "Protector", "Brotherhood"], "description": "An unstoppable tank who taunts his foes and charges for devastating damage."},
+"Kingpin": {"available": true, "traits": ["City", "Skill", "Protector", "Villain"], "description": "A demanding crime boss who summons bodyguards and orders allies to attack."},
+"Korath the Pursuer": {"available": true, "traits": ["Villain", "Cosmic", "Tech", "Blaster", "Kree", "Mercenary"], "description": "A relentless tracker who uses cybernetic enhancements to mark and disable his targets."},
+"Kree Noble": {"available": true, "traits": ["Villain", "Cosmic", "Bio", "Controller", "Kree", "Minion"], "description": "The elite classes of Kree society order others to vanquish their enemies."},
+"Kree Cyborg": {"available": true, "traits": ["Villain", "Cosmic", "Tech", "Blaster", "Kree", "Minion"], "description": "An elite warrior armed with cybernetics that enhance speed, and strength."},
+"Kree Reaper": {"available": true, "traits": ["Villain", "Cosmic", "Bio", "Brawler", "Kree", "Minion"], "description": "A vicious hunter who doesn't give her prey a chance to recover."},
+"Kree Oracle": {"available": true, "traits": ["Villain", "Cosmic", "Tech", "Support", "Kree", "Minion"], "description": "A purifier who utilizes Kree technology to regenerate and cleanse his allies."},
+"Kree Royal Guard": {"available": true, "traits": ["Villain", "Cosmic", "Bio", "Protector", "Kree", "Minion"], "description": "A heavily armored Kree warrior who intercepts attackers with brutal counterattacks."},
+"Loki": {"available": true, "traits": ["Villain", "Cosmic", "Mystic", "Controller", "Asgard"], "description": "The Asgardian god of Mischief who misleads and confuses his foes."},
+"Luke Cage": {"available": true, "traits": ["Hero", "City", "Bio", "Protector", "Defender"], "description": "An extremely tough taunting protector with high damage and health."},
+"Magneto": {"available": true, "traits": ["Villain", "Global", "Controller", "Mutant", "Brotherhood"], "description": "A master of magnetic fields who can shift enemy positions and empower his Brotherhood allies."},
+"Mantis": {"available": true, "traits": ["Hero", "Cosmic", "Bio", "Controller", "Guardian"], "description": "A cosmic healer who can stun foes and redistribute health to an injured ally. Her abilities are stronger in Raids."},
+"Mercenary Soldier": {"available": true, "traits": ["Villain", "City", "Skill", "Blaster", "Mercenary", "Minion"], "description": "A versatile soldier who can inflict area damage with grenades."},
+"Mercenary Sniper": {"available": true, "traits": ["Villain", "City", "Tech", "Blaster", "Mercenary", "Minion"], "description": "An expert marksman who can deliver high damage with a single shot."},
+"Mercenary Lieutenant": {"available": true, "traits": ["Villain", "City", "Tech", "Support", "Mercenary", "Minion"], "description": "A field combat leader who makes allies faster and stronger."},
+"Mercenary Riot Guard": {"available": true, "traits": ["Villain", "City", "Skill", "Protector", "Mercenary", "Minion"], "description": "A tough fighter who draws fire and reduces incoming damage."},
+"Mercenary Bodyguard": {"available": false, "traits": ["Villain", "City", "Skill", "Protector", "Mercenary", "Minion"], "description": "A bodyguard who distracts enemies to protect allies."}, "Minn-Erva": {"available": true, "traits": ["Villain", "Cosmic", "Support", "Tech", "Kree"], "description": "A brilliant Kree geneticist that uses her mastery of biology to weaken foes and replenish her allies."},
+"Mystique": {"available": true, "traits": ["Villain", "Global", "Mutant", "Controller", "Brotherhood"], "description": "A covert shapeshifter skilled at disabling stealthed targets and manipulating enemies into attacking each other."},
+"Ms. Marvel": {"available": true, "traits": ["Hero", "City", "Bio", "Brawler", "Inhuman"], "description": "A plucky Super Hero brawler who assists and generates ability energy for her allies."},
+"Nebula": {"available": true, "traits": ["Villain", "Cosmic", "Tech", "Brawler"], "description": "A ruthless attacker who assails opponents with frequent attacks."},
+"Nick Fury": {"available": true, "traits": ["Global", "Skill", "Support", "Hero", "Avenger", "S.H.I.E.L.D"], "description": "The legendary leader who spreads advantages to allies and summons S.H.I.E.L.D. agents."},
+"Night Nurse": {"available": true, "traits": ["Hero", "City", "Skill", "Support"], "description": "An excellent healer who is able to deploy a wide variety of health restoration abilities."},
+"Nobu": {"available": true, "traits": ["Villain", "City", "Mystic", "Controller", "Hand", "Martial Artist"], "description": "A mysterious ninja master who summons Hand Ninjas and specializes in ambushing his opponents."},
+"Okoye": {"available": false, "traits": ["Hero", "Global", "Skill", "Controller", "Wakanda"], "description": "A Wakandan general adept at disrupting the battlefield with precision strikes using her Vibranium Spear."},
+"Punisher": {"available": true, "traits": ["Hero", "City", "Skill", "Blaster"], "description": "A vicious blaster who deals high piercing damage to multiple targets."},
+"Pyro": {"available": true, "traits": ["Villain", "Global", "Mutant", "Blaster", "Brotherhood"], "description": "A hotheaded fire-starter who excels at burning enemies in an area to inflict damage over time."},
+"Quake": {"available": true, "traits": ["Hero", "Global", "Bio", "Controller", "S.H.I.E.L.D", "Inhuman"], "description": "A S.H.I.E.L.D. agent who disrupts the enemy team by weakening groups of foes and removing their advantages."},
+"Ravager Boomer": {"available": true, "traits": ["Villain", "Cosmic", "Tech", "Blaster", "Ravager", "Minion"], "description": "A heavily armed space pirate who supports his allies with plasma cannon fire."},
+"Ravager Stitcher": {"available": true, "traits": ["Villain", "Cosmic", "Tech", "Support", "Ravager", "Minion"], "description": "A spacefaring doctor who prioritizes healing the most severe wounds over those that will merely leave a cool scar."},
+"Ravager Bruiser": {"available": true, "traits": ["Villain", "Cosmic", "Bio", "Protector", "Ravager", "Minion"], "description": "A boarding expert who uses an energy S.H.I.E.L.D to deflect attacks."},
+"Red Skull": {"available": false, "traits": ["Global", "Bio", "Controller", "Villain", "Hydra"], "description": "The leader of Hydra who commands Hydra troops to fire on his enemies."},
+"Rocket Raccoon": {"available": true, "traits": ["Hero", "Cosmic", "Tech", "Blaster", "Guardian"], "description": "An aggressive scrapper who inflicts terrible damage to foes at range. Prefers to team up with Groot."},
+"Ronan the Accuser": {"available": true, "traits": ["Villain", "Cosmic", "Mystic", "Controller", "Kree"], "description": "A Kree fanatic who summons Kree minions while denying the abilities of his foes with brutal strikes."},
+"Sabretooth": {"available": true, "traits": ["Villain", "Global", "Mutant", "Brawler", "Brotherhood"], "description": "A savage, regenerating brute that shreds single targets and chains to additional enemies."},
+"Scarlet Witch": {"available": true, "traits": ["Hero", "Global", "Mystic", "Controller", "Avenger"], "description": "A mystical controller that prolongs negative effects and redistributes health across her teammates."},
+"Scientist Supreme": {"available": true, "traits": ["Villain", "Global", "Tech", "Support", "Aim"], "description": "A mad scientist who converts negative effects to positive effects while healing her allies."},
+"S.H.I.E.L.D. Assault": {"available": true, "traits": ["Hero", "Global", "Skill", "Blaster", "S.H.I.E.L.D", "Minion"], "description": "A jetpack assault soldier who provides air cover with area attacks."},
+"S.H.I.E.L.D. Medic": {"available": true, "traits": ["Hero", "Global", "Skill", "Support", "S.H.I.E.L.D", "Minion"], "description": "A S.H.I.E.L.D. agent trained to provide emergency medical attention in the field."}, "Spider-Man": {"available": true, "traits": ["Hero", "City", "Bio", "Brawler", "SpiderVerse"], "description": "A quick attacker that weakens opponents and evades incoming attacks."}, "Star-Lord": {"available": true, "traits": ["Hero", "Cosmic", "Tech", "Controller", "Guardian"], "description": "A charismatic leader who generates ability energy for allies and distracts enemies."},
+"S.H.I.E.L.D. Operative": {"available": true, "traits": ["Hero", "Global", "Skill", "Support", "S.H.I.E.L.D", "Minion"], "description": "An agent who specializes in protecting vulnerable VIP's with stealth and emergency medical aid."},
+"S.H.I.E.L.D. Trooper": {"available": true, "traits": ["Hero", "Global", "Skill", "Blaster", "S.H.I.E.L.D", "Minion"], "description": "S.H.I.E.L.D.'s frontline soldiers hold the line with defensive tactics and counterattacks."},
+"S.H.I.E.L.D. Security": {"available": true, "traits": ["Hero", "Global", "Skill", "Protector", "S.H.I.E.L.D", "Minion"], "description": "A non-lethal combat specialist with a protective S.H.I.E.L.D and a baton that stuns opponents."},
+"Storm": {"available": true, "traits": ["Hero", "Global", "Mutant", "Controller", "Xmen"], "description": "A powerful weather controller that charges up devastating attacks to lead her mutant allies to victory."},
+"Thanos": {"available": true, "traits": ["Villain", "Cosmic", "Mystic", "Protector", "Eternal"], "description": "A Titan Eternal who delivers crushing blows that drain his foes and taunt his enemies."},
+"Thor": {"available": true, "traits": ["Hero", "Cosmic", "Mystic", "Controller", "Avenger", "Asgard"], "description": "The God of Thunder who deals great damage and weakens multiple foes."},
+"Green Goblin": {"available": true, "traits": ["Villain", "City", "Bio", "Blaster", "SpiderVerse"], "description": "A fierce villain who strips positive effects from his foes with fire and explosives."}, "Spider-Man (Miles)": {"available": true, "traits": ["Hero", "City", "Bio", "Brawler", "SpiderVerse"], "description": "Miles Morales controls the field with web blasts and electrical shocks that prolong negative effects and apply Disrupted."},
+"Ultimus": {"available": true, "traits": ["Villain", "Cosmic", "Mystic", "Brawler", "Kree", "Eternal"], "description": "A Kree warlord and eternal who generates overwhelming energy blasts and force fields."},
+"Ultron": {"available": true, "traits": ["Global", "Tech", "Blaster", "Villain", "Ultron"], "description": "A powerful robotic tyrant that summons drones to eliminate any threat to his mechanical regime."},
+"Ultron Fortifier": {"available": false, "traits": ["Global", "Tech", "Brawler", "Villain", "Ultron", "Minion"], "description": "An Ultron drone who generates protective force fields."},
+"Ultron Incinerator": {"available": false, "traits": ["Global", "Tech", "Blaster", "Villain", "Ultron", "Minion"], "description": "An Ultron drone who blasts targets with devastating heat rays."},
+"Ultron Accelerator": {"available": false, "traits": ["Global", "Tech", "Blaster", "Villain", "Ultron", "Minion"], "description": "An Ultron drone who attacks targets rapidly with high-velocity rail guns."},
+"Ultron Fabricator": {"available": false, "traits": ["Global", "Tech", "Support", "Villain", "Ultron", "Minion"], "description": "An Ultron drone who deploys nanobots to reconstruct allies."},
+"Ultron Reinforcer": {"available": false, "traits": ["Global", "Tech", "Protector", "Villain", "Ultron", "Minion"], "description": "An Ultron construction drone who taunts enemies to absorb damage."},
+"Venom": {"available": true, "traits": ["Villain", "City", "Bio", "Controller", "SpiderVerse"], "description": "A symbiotic monstrosity that tears into opponents and spreads harmful effects."},
+"Vision": {"available": true, "traits": ["Hero", "Global", "Tech", "Controller", "Avenger"], "description": "A synthetic being that avoids enemy attacks and disables his foes."},
+"War Machine": {"available": true, "traits": ["Hero", "Global", "Tech", "Blaster", "Avenger", "Military"], "description": "An armored soldier who uses an arsenal of weapons to bombard his foes. More powerful in Alliance Wars."},
+"Wasp": {"available": true, "traits": ["Hero", "Global", "Tech", "Blaster"], "description": "A highly elusive blaster capable of stunning and chaining to multiple opponents."},
+"Winter Soldier": {"available": true, "traits": ["Villain", "Global", "Bio", "Blaster", "Hydra", "Military"], "description": "An elite Hydra agent who assaults his chosen target with deadly attacks that prevent healing."},
+"Wolverine": {"available": true, "traits": ["Hero", "Global", "Mutant", "Brawler", "Xmen"], "description": "A mutant armed with adamantium claws that ignore armor and tear through his opponents."},
+"Yondu": {"available": true, "traits": ["Villain", "Cosmic", "Mystic", "Support", "Ravager"], "description": "A leader who can summon Ravager allies and deliver high piercing damage."}
+},
   "base_materials": {
     "1": [
       "Beta Cloth",
