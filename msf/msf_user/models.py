@@ -24,7 +24,7 @@ class User(AbstractUser):
         from character.models import Character
 
         roster = Roster.objects.create(user=self, shareable=False)
-        for character in Character.objects.all():
+        for character in Character.objects.filter(available=True):
             CharacterInstance.objects.create(roster=roster, character=character)
 
 
