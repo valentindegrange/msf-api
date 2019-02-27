@@ -17,3 +17,7 @@ from .materials import (
 from .traits import (
     TraitViewSet
 )
+
+from .users import (
+    CreateUserView
+)

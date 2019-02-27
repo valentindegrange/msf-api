@@ -16,3 +16,7 @@ from .materials import (
 from .traits import (
     TraitSerializer
 )
+
+from .users import (
+    CreateUserSerializer
+)

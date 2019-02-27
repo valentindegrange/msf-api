@@ -7,8 +7,8 @@ from api.views import (
     CurrentUserRosterView,
     SharedRosterView,
     MaterialViewSet,
-    TraitViewSet
-)
+    TraitViewSet,
+    CreateUserView)
 
 app_name = 'api'
 
@@ -20,7 +20,8 @@ router.register(r'traits', TraitViewSet, basename='trait')
 
 urlpatterns = [
     path('roster', CurrentUserRosterView.as_view(), name="current_roster"),
-    path('roster/<slug:user_id>', SharedRosterView.as_view(), name="shared_roster")
+    path('roster/<slug:user_id>', SharedRosterView.as_view(), name="shared_roster"),
+    path('create-user', CreateUserView.as_view(), name="create_user")
 ]
 
 urlpatterns += router.urls

@@ -15,7 +15,10 @@ class MsfUserManager(UserManager):
 class User(AbstractUser):
     username = CharField(unique=True, max_length=128)
 
-    USERNAME_FIELD = 'username'
+    email = models.EmailField(unique=True)
+
+    USERNAME_FIELD = 'email'
+    REQUIRED_FIELDS = ['username']
 
     objects = MsfUserManager()
 
