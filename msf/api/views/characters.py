@@ -6,6 +6,9 @@ from api.serializers import (
     CharacterSerializer,
     CharacterInstanceSerializer
 )
+from api.filters import (
+    CharacterInstanceFilter
+)
 from character.models import Character
 from roster.models import CharacterInstance
 
@@ -20,6 +23,7 @@ class CharacterInstanceViewSet(ModelViewSet):
 
     serializer_class = CharacterInstanceSerializer
     permission_classes = [IsAuthenticated]
+    filter_class = CharacterInstanceFilter
 
     def get_queryset(self):
         current_user = self.request.user
