@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from rest_framework.generics import GenericAPIView, UpdateAPIView
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 
 
@@ -9,6 +10,8 @@ from roster.models import Roster, CharacterInstance
 
 class CurrentUserRosterView(UpdateAPIView):
     serializer_class = RosterSerializer
+
+    permission_classes = [IsAuthenticated]
 
     def get_object(self):
         current_user = self.request.user

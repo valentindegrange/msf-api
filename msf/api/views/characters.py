@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.viewsets import ReadOnlyModelViewSet, ModelViewSet
 
 from api.serializers import (
@@ -18,6 +19,7 @@ class CharacterViewSet(ReadOnlyModelViewSet):
 class CharacterInstanceViewSet(ModelViewSet):
 
     serializer_class = CharacterInstanceSerializer
+    permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
         current_user = self.request.user
