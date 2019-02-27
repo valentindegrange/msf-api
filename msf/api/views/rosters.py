@@ -3,7 +3,7 @@ from rest_framework.generics import GenericAPIView, UpdateAPIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 
-
+from api.filters import CharacterInstanceFilter
 from api.serializers import RosterSerializer, CharacterInstanceSerializer
 from roster.models import Roster, CharacterInstance
 
@@ -24,6 +24,8 @@ class CurrentUserRosterView(UpdateAPIView):
 
 
 class SharedRosterView(GenericAPIView):
+
+    filter_class = CharacterInstanceFilter
 
     serializer_class = CharacterInstanceSerializer
 
