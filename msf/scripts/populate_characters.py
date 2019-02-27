@@ -7,7 +7,7 @@ import json
 
 @transaction.atomic
 def run():
-    with open('data/data.json', 'r') as data_file:
+    with open('msf/data/data.json', 'r') as data_file:
         character_data = json.load(data_file)
 
     traits_created = build_traits(character_data['traits'])
