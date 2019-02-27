@@ -15,7 +15,14 @@ from character.constants import (
 )
 
 
-class CharacterSerializer(HyperlinkedModelSerializer):
+class CharacterSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Character
+        fields = ('id', 'name', 'gear_tiers', 'available', 'traits', 'description')
+        read_only_fields = ('id',)
+
+
+class LinkedCharacterSerializer(HyperlinkedModelSerializer):
 
     url = serializers.HyperlinkedIdentityField(view_name='api:character-detail')
     # traits = serializers.PrimaryKeyRelatedField(many=True, read_only=True)
@@ -27,7 +34,37 @@ class CharacterSerializer(HyperlinkedModelSerializer):
         read_only_fields = ('id',)
 
 
-class CharacterInstanceSerializer(HyperlinkedModelSerializer):
+class CharacterInstanceSerializer(serializers.ModelSerializer):
+    name = serializers.CharField(source='character.name', read_only=True)
+    description = serializers.CharField(source='character.description', read_only=True)
+    level = serializers.IntegerField(min_value=MIN_LEVEL, max_value=MAX_LEVEL)
+    stars = serializers.IntegerField(min_value=MIN_STARS, max_value=MAX_STARS)
+    red_stars = serializers.IntegerField(min_value=MIN_RED_STARS, max_value=MAX_RED_STARS)
+    gear_tier_level = serializers.IntegerField(min_value=MIN_GEAR_LEVEL, max_value=MAX_GEAR_LEVEL)
+
+    class Meta:
+        model = CharacterInstance
+        fields = (
+            'id',
+            'character',
+            'name',
+            'description',
+            'level',
+            'stars',
+            'red_stars',
+            'gear_tier_level',
+            'unlocked'
+        )
+        read_only_fields = ('id', 'name',)
+
+    def create(self, validated_data):
+        current_user = self.context['request'].user
+        roster, _ = Roster.objects.get_or_create(user=current_user)
+        validated_data['roster'] = roster
+        return super().create(validated_data)
+
+
+class LinkedCharacterInstanceSerializer(HyperlinkedModelSerializer):
 
     name = serializers.CharField(source='character.name', read_only=True)
     level = serializers.IntegerField(min_value=MIN_LEVEL, max_value=MAX_LEVEL)
